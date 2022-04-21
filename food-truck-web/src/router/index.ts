@@ -24,9 +24,9 @@ const routes: Array<RouteRecordRaw> = [
   },
 
   {
-    path: '/food-truck-1',
-    name: 'food-truck-1',
-    component: () => import('../views/Truck1View.vue')
+    path: '/Shopping-Cart',
+    name: 'Shopping-Cart',
+    component: () => import('../views/Shopping-cartView.vue')
 
   }
 ]

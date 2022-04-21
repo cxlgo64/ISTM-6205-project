@@ -1,12 +1,13 @@
 <template>
   <header>
     <img alt="GWFBFT logo" src="../assets/logo.png" height="20">
-    <p>George Washington University Foggy bottom Campus Food Truck introduction</p>
+    <p>GWU Food Trucks Foggy Bottom</p>
      <nav>
       <ul>
         <li><router-link to="/">Home</router-link></li>
-        <li><router-link to="/about">About</router-link></li>
-        <li><router-link to="/food-truck-home">Food Truck</router-link></li>
+        <li><router-link to="/food-truck-home">Food Trucks and Menus</router-link></li>
+        <li><router-link to="/shopping-cart">Cart</router-link></li>
+        <li><router-link to="/about">About Us</router-link></li>
       </ul>
     </nav>
   </header>

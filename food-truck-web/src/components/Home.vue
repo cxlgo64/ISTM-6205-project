@@ -1,17 +1,23 @@
 <template>
-  <div class="hello">
+  <div class="home">
     <h1>{{ msg }}</h1>
     <p>
       In this website, you can find the "Hidden Treasure" in the GWU Foggy Bottom Campus
-      <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
     </p>
     <h3>Mexicon Food</h3>
+    <ul class="list1">
+      <li><a href="/food-truck-homek#truck1" target="_blank" rel="noopener">Truck1</a></li>
+      <li><a href="/food-truck-homek#truck2" target="_blank" rel="noopener">Truck2</a></li>
+      <li><a href="/food-truck-homek#truck3" target="_blank" rel="noopener">Truck3</a></li>
+      <li><a href="/food-truck-homek#truck4" target="_blank" rel="noopener">Truck4</a></li>
+      <li><a href="/food-truck-homek#truck5" target="_blank" rel="noopener">Truck5</a></li>
+    </ul>
     <ul>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel" target="_blank" rel="noopener">babel</a></li>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-router" target="_blank" rel="noopener">router</a></li>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-vuex" target="_blank" rel="noopener">vuex</a></li>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint" target="_blank" rel="noopener">eslint</a></li>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-typescript" target="_blank" rel="noopener">typescript</a></li>
+      <li id="picture"><img alt="Truck1 Logo" src="..\assets\logo.png" height="50" width="100"></li>
+      <li id="picture"><img alt="Truck2 Logo" src="..\assets\logo.png" height="50" width="100"></li>
+      <li id="picture"><img alt="Truck3 Logo" src="..\assets\logo.png" height="50" width="100"></li>
+      <li id="picture"><img alt="Truck4 Logo" src="..\assets\logo.png" height="50" width="100"></li>
+      <li id="picture"><img alt="Truck5 Logo" src="..\assets\logo.png" height="50" width="100"></li>
     </ul>
     <h3>Halal food</h3>
     <ul>
@@ -51,6 +57,9 @@ h3 {
 ul {
   list-style-type: none;
   padding: 0;
+}
+.list1 li{
+  margin: 0 35px;
 }
 li {
   display: inline-block;
