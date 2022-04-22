@@ -96,16 +96,4 @@ export default {
     margin: 5px;
     padding: 5px;
   }
-  h1 {
-    font-size: 55px;
-  }
-  h2 {
-    font-size: 33px;
-  }
-  h3 {
-    font-size: 30px;
-  }
-  p {
-    font-size: 20px;
-  }
 </style>

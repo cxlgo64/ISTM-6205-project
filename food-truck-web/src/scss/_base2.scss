@@ -1,0 +1,46 @@
+h1 {
+    font-size: 55px;
+    margin: auto;
+}
+
+h2 {
+    font-size: 33px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    p {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    h1 {
+        font-size: 23px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    h3 {
+        font-size: 15px;
+    }
+    p {
+        font-size: 10px;
+    }
+}
