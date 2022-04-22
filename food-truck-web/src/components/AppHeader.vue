@@ -1,6 +1,6 @@
 <template>
   <header>
-    <img alt="GWFBFT logo" src="../assets/logo.png" height="20">
+    <img alt="GWFBFT logo" src="../assets/logo.png" height="20" width="20">
     <p>GWU Food Trucks Foggy Bottom</p>
      <nav>
       <ul>
@@ -26,6 +26,7 @@
 
   nav {
     margin-left: auto;
+    font-size: 12px;
 
     ul {
       list-style: none;

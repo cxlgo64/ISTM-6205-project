@@ -19,10 +19,16 @@ const routes: Array<RouteRecordRaw> = [
   {
     path: '/food-truck-home',
     name: 'food-truck-home',
-    component: () => import('../views/FoodTruckView.vue')
+    component: () => import('../views/FoodTruckView.vue'),
+    children: [{
+      path: 'Truck1',
+      component: () => import('../views/Truck1View.vue')
+    }, {
+      path: 'Truck2',
+      component: () => import('../views/Truck2View.vue')
+    }]
 
   },
-
   {
     path: '/Shopping-Cart',
     name: 'Shopping-Cart',

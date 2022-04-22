@@ -6,7 +6,7 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import foodtruckhome from '@/components/foodtruckhome.vue' // @ is an alias to /src
+import foodtruckhome from '@/components/foodtruckhome.vue'
 
 export default defineComponent({
   name: 'ContactView',

@@ -2,14 +2,18 @@
    <div class="food-truck-home">
     <h1>{{ msg }}</h1>
      <table id="trucks">
-        <tr>
-            <th>Truck Name</th>
-            <th>Food Genre</th>
-            <th>Location</th>
-            <th>Description</th>
-             <th>Menu</th>
-            <th>Contact Info</th>
-        </tr>
+        <thead>
+          <tr>
+              <th>Truck Name</th>
+              <th>Food Genre</th>
+              <th>Location</th>
+              <th>Description</th>
+              <th>Menu</th>
+              <th>Contact Info</th>
+          </tr>
+        </thead>
+        <tbody>
+        </tbody>
     </table>
   </div>
 </template>
