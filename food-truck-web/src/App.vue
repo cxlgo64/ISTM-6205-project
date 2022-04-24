@@ -1,19 +1,22 @@
 <template>
   <app-header/>
+  <app-navi />
+  <sidebar-menu :menu="menu" />
   <router-view/>
   <app-footer />
-  <sidebar-menu :menu="menu" />
 </template>
 
 <script>
 import AppHeader from './components/AppHeader.vue'
 import AppFooter from '@/components/AppFooter.vue'
 import { SidebarMenu } from 'vue-sidebar-menu'
+import AppNavi from './components/AppNavi.vue'
 
 export default {
   components: {
     AppHeader,
     AppFooter,
+    AppNavi,
     SidebarMenu
   },
   data () {
@@ -30,16 +33,32 @@ export default {
         },
         {
           href: '/food-truck-home',
-          title: 'Foodtrucks',
+          title: 'Food Trucks',
           icon: 'fa fa-chart-area',
           child: [
             {
-              href: '/food-truck-home/Truck1',
-              title: 'Truck1'
+              href: '/Tasty-Kabob',
+              title: 'Tasty Kabob'
             },
             {
-              href: '/food-truck-home/Truck2',
-              title: 'Truck2'
+              href: '/Yumpling',
+              title: 'Yumpling'
+            },
+            {
+              href: '/Gourment-Mediterranean-Food',
+              title: 'Gourment Mediterranean Food'
+            },
+            {
+              href: '/truck4',
+              title: 'Truck4'
+            },
+            {
+              href: '/HAVELI',
+              title: 'HAVELI'
+            },
+            {
+              href: '/truck-temp',
+              title: 'TruckTemplate'
             }
           ]
         },

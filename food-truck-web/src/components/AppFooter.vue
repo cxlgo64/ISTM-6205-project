@@ -18,7 +18,10 @@ export default {
 
 <style lang="scss">
   #ft{
-    font-size: 8px;
+    margin:20px;
+    font-size: 12px;
     background-color: bisque;
+    position: relative;
+    bottom: 0;
   }
 </style>

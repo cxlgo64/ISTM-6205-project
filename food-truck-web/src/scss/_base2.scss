@@ -15,6 +15,7 @@ p {
     font-size: 20px;
 }
 
+//Tablet View
 @media only screen and (max-width: 768px) {
     h1 {
         font-size: 40px;
@@ -30,6 +31,7 @@ p {
     }
 }
 
+//Mobile View
 @media only screen and (max-width: 320px) {
     h1 {
         font-size: 23px;

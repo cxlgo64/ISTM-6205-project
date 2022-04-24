@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <Homepage msg="Delicous Fresh Food to your hand - Food Truck in GWU Foggy Bottom"/>
+    <Homepage msg="Delicious Fresh Food to your hand"/>
   </div>
 </template>
 

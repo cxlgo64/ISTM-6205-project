@@ -15,7 +15,7 @@
     </div>
     <div class="YC">
       <ul>
-        <li id="picture"><img alt="Younghwan Choi picture" src="..\assets\logo.png" height="50" width="100"></li>
+        <li id="picture"><img alt="Younghwan Choi picture" src="..\assets\member2.jpg" height="50" width="100"></li>
         <li>Younghwan Choi</li>
         <li><a href="https:/www.windbreakercxl.com" target="_blank" rel="noopener">Linkedin</a></li>
         <li><a href="mailto:cxlgo@gwu.edu">Email</a></li>
@@ -23,7 +23,7 @@
     </div>
     <div class="JTM">
       <ul>
-        <li id="picture"><img alt="Jeffrey Techie-Menson picture" src="..\assets\logo.png" height="50" width="100"></li>
+        <li id="picture"><img alt="Jeffrey Techie-Menson picture" src="..\assets\member3.jpg" height="50" width="100"></li>
         <li>Jeffrey Techie-Menson</li>
         <li><a href="https:/www.windbreakercxl.com" target="_blank" rel="noopener">Linkedin</a></li>
         <li><a href="mailto:cxlgo@gwu.edu">Email</a></li>
@@ -62,13 +62,6 @@ export default {
   *{
     box-sizing: border-box;
   }
-  .contact-form{
-    padding: auto;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin: 10px;
-    background-color: beige;
-  }
   .about ul{
     display: inline-block;
     background-color: rgb(220, 226, 231);
@@ -80,16 +73,6 @@ export default {
   .about li{
     display: inline-block;
     margin: 0 10px;
-  }
-  input[type=text], select, textarea {
-    width: 70%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
   }
   #picture{
     background-color: rgb(178, 97, 127);

@@ -1,10 +1,11 @@
 <template>
   <div class="home">
-    <h1>{{ msg }}</h1>
-    <p>
-      In this website, you can find the "Hidden Treasure" in the GWU Foggy Bottom Campus
+    <img alt="Truck1 Logo" src="..\assets\TruckSrc\Map.jpg" height="800" width="600">
+    <h1 class="title1">{{ msg }}</h1>
+    <p style="page-break-after: always;">
+      "Hidden Treasure" in the GWU Foggy Bottom Campus
     </p>
-    <h3>Mexicon Food</h3>
+    <h3>Truck Exhibits</h3>
     <ul class="list1">
       <li><a href="/food-truck-homek#truck1" target="_blank" rel="noopener">Truck1</a></li>
       <li><a href="/food-truck-homek#truck2" target="_blank" rel="noopener">Truck2</a></li>
@@ -35,6 +36,10 @@ export default defineComponent({
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
+.title1{
+  margin: 5px;
+  padding: 5px;
+}
 h3 {
   margin: 40px 0 0;
 }
