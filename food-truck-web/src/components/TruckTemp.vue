@@ -43,12 +43,14 @@ export default defineComponent({
   margin: 5px;
   padding: 5px;
 }
-#TruckDetail table{
-    position:relative;
-    left:500px;
-    right:10px;
-}
 
+#TruckDetail{
+    display:flex;
+    flex-wrap: wrap;
+    td{
+        width:70%;
+    }
+}
 h3 {
   margin: 40px 0 0;
 }

@@ -23,7 +23,7 @@ const routes: Array<RouteRecordRaw> = [
   {
     path: '/Shopping-Cart',
     name: 'Shopping-Cart',
-    component: () => import('../views/Shopping-cartView.vue')
+    component: () => import('../views/cartlist.vue')
   },
   {
     path: '/Tasty-Kabob',
@@ -41,8 +41,8 @@ const routes: Array<RouteRecordRaw> = [
     component: () => import('../views/Truck3View.vue')
   },
   {
-    path: '/truck4',
-    name: 'Truck4',
+    path: '/gwu-snack-truck',
+    name: 'GWU Snack Truck',
     component: () => import('../views/Truck4View.vue')
   },
   {

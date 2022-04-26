@@ -16,35 +16,35 @@
             <td>Tasty Kabob</td>
             <td>Kabob, Middle Eastern Food</td>
             <td>H Street NW and 22nd St NW, Facing Madison Hall</td>
-            <td><router-link to="Truck1">Details</router-link></td>
+            <td><router-link to="/Tasty-Kabob">Details</router-link></td>
             <td><a href="https://tastykabobinc.com/" target="_blank" rel="noopener">Home Page</a></td>
           </tr>
            <tr>
             <td>Yumpling</td>
             <td>Chinese Dumpling, Chinese Food</td>
             <td>H Street NW and 22nd St NW, Facing Madison Hall</td>
-            <td><a href="/truck2" target="_blank" rel="noopener">Details</a></td>
+            <td><router-link to="/Yumpling">Details</router-link></td>
             <td><a href="https://tastykabobinc.com/" target="_blank" rel="noopener">Home Page</a></td>
           </tr>
           <tr>
             <td>GOURMET MEDITERRANEAN FOOD</td>
             <td>Mediterranean</td>
             <td>H Street NW and 22nd St NW, Facing Madison Hall</td>
-            <td><a href="/truck3" target="_blank" rel="noopener">Details</a></td>
+            <td><router-link to="/Gourment-Mediterranean-Food">Details</router-link></td>
             <td><a href="https://tastykabobinc.com/" target="_blank" rel="noopener">Home Page</a></td>
           </tr>
           <tr>
             <td>HAVELI</td>
             <td>Halal Food</td>
             <td>H Street NW and 22nd St NW, Facing Madison Hall</td>
-            <td><a href="/truck4" target="_blank" rel="noopener">Details</a></td>
+            <td><router-link to="/gwu-snack-truck">Details</router-link></td>
             <td><a href="https://tastykabobinc.com/" target="_blank" rel="noopener">Home Page</a></td>
           </tr>
           <tr>
             <td>GWU Snack Truck</td>
             <td>Pretzel, Hotdog, snacks</td>
             <td>H Street NW and 22nd St NW, Facing Madison Hall</td>
-            <td><a href="/truck5" target="_blank" rel="noopener">Details</a></td>
+            <td><router-link to="/HAVELI">Details</router-link></td>
             <td><a href="https://tastykabobinc.com/" target="_blank" rel="noopener">Home Page</a></td>
           </tr>
         </tbody>

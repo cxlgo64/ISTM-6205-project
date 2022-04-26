@@ -6,20 +6,13 @@
       "Hidden Treasure" in the GWU Foggy Bottom Campus
     </p>
     <h3>Truck Exhibits</h3>
-    <ul class="list1">
-      <li><a href="/food-truck-homek#truck1" target="_blank" rel="noopener">Truck1</a></li>
-      <li><a href="/food-truck-homek#truck2" target="_blank" rel="noopener">Truck2</a></li>
-      <li><a href="/food-truck-homek#truck3" target="_blank" rel="noopener">Truck3</a></li>
-      <li><a href="/food-truck-homek#truck4" target="_blank" rel="noopener">Truck4</a></li>
-      <li><a href="/food-truck-homek#truck5" target="_blank" rel="noopener">Truck5</a></li>
-    </ul>
-    <ul class="picturelist">
-      <li id="picture"><img alt="Truck1 Logo" src="..\assets\logo.png" height="50" width="100"></li>
-      <li id="picture"><img alt="Truck2 Logo" src="..\assets\logo.png" height="50" width="100"></li>
-      <li id="picture"><img alt="Truck3 Logo" src="..\assets\logo.png" height="50" width="100"></li>
-      <li id="picture"><img alt="Truck4 Logo" src="..\assets\logo.png" height="50" width="100"></li>
-      <li id="picture"><img alt="Truck5 Logo" src="..\assets\logo.png" height="50" width="100"></li>
-    </ul>
+    <div class="TrucksPicture">
+      <img id="pic1" alt="Truck1 Logo" src="..\assets\TruckSrc\Truck1.jpg" height="400" width="300"><br>
+      <img id="pic2" alt="Truck2 Logo" src="..\assets\TruckSrc\Truck2.jpg" height="400" width="300"><br>
+      <img id="pic3" alt="Truck3 Logo" src="..\assets\TruckSrc\Truck3.jpg" height="400" width="300"><br>
+      <img id="pic4" alt="Truck4 Logo" src="..\assets\TruckSrc\Truck4.jpg" height="400" width="300"><br>
+      <img id="pic5" alt="Truck5 Logo" src="..\assets\TruckSrc\Truck5.jpg" height="400" width="300"><br>
+    </div>
   </div>
 </template>
 
@@ -39,6 +32,33 @@ export default defineComponent({
 .title1{
   margin: 5px;
   padding: 5px;
+}
+.TrucksPicture{
+  #pic1{
+    position:relative;
+    left: 30%;
+    margin:auto;
+  }
+  #pic2{
+    position:relative;
+    right: 30%;
+    margin:auto;
+  }
+  #pic3{
+    position:relative;
+    left: 30%;
+    margin:auto;
+  }
+  #pic4{
+    position:relative;
+    right: 30%;
+    margin:auto;
+  }
+  #pic5{
+    position:relative;
+    left: 30%;
+    margin:auto;
+  }
 }
 h3 {
   margin: 40px 0 0;

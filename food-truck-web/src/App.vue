@@ -49,8 +49,8 @@ export default {
               title: 'Gourment Mediterranean Food'
             },
             {
-              href: '/truck4',
-              title: 'Truck4'
+              href: '/gwu-snack-truck',
+              title: 'GWU Snack Truck'
             },
             {
               href: '/HAVELI',

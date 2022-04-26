@@ -10,10 +10,10 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import TruckTemp from '@/components/TruckTemp.vue' // @ is an alias to /src
+import TruckTemp from '../components/TruckTemp.vue' // @ is an alias to /src
 
 export default defineComponent({
-  name: 'Truck2View',
+  name: 'Truck5View',
   components: {
     TruckTemp
   }

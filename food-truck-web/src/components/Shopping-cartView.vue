@@ -7,14 +7,17 @@
             <th>Item ID</th>
             <th>Item Name</th>
             <th>Quantity</th>
+            <th>Price</th>
             <th>Action</th>
         </tr>
-        <tr>
-            {{cartlist}}
-        </tr>
-        <tr>
-            <td id="total">Total: {{totalPrice}}</td>
-        </tr>
+        <tbody>
+          <slot name="cratlist"></slot>
+        </tbody>
+        <tfoot>
+          <tr>
+              <td id="total">Total: {{totalPrice}}</td>
+          </tr>
+        </tfoot>
     </table>
   </div>
 </template>
@@ -35,18 +38,10 @@ export default defineComponent({
   .Shopping-cart h1 {
     font-size: 25px;
   }
-  table {
-    font-family: arial, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
-  }
-  td, th {
-    border: 1px solid #dddddd;
-    text-align: left;
-    padding: 8px;
-  }
-  tr:nth-child(even) {
-    background-color: #dddddd;
+  #cart{
+    width: 50%;
+    position: relative;
+    margin:auto;
   }
   #total{
     text-align: right;
