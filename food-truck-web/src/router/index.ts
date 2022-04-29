@@ -5,7 +5,20 @@ const routes: Array<RouteRecordRaw> = [
   {
     path: '/',
     name: 'home',
-    component: HomeView
+    component: HomeView,
+    meta: {
+      title: 'GWU Food Truck',
+      metaTags: [
+        {
+          name: 'description',
+          content: 'The home page of GWU Food Truck.'
+        },
+        {
+          property: 'og:description',
+          content: 'The home page of GWU Food Truck..'
+        }
+      ]
+    }
   },
   {
     path: '/about',

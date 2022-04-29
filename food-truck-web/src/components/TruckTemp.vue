@@ -2,8 +2,30 @@
   <div class="TruckTemp">
     <h1 class="title1">{{ Tname }}</h1>
     <div id="TruckDetail">
-      <slot name="Tpicture"><img alt="Truck1 Logo" src= "..\assets\logo.png" height="800" width="600"></slot>
-      <table>
+      <slot name="Tpicture">
+<section class="gallery">
+  <div class="gallery__item">
+    <input type="radio" id="img-1" checked name="gallery" class="gallery__selector"/>
+    <img class="gallery__img" src="https://picsum.photos/id/1015/600/400.jpg" alt=""/>
+    <label for="img-1" class="gallery__thumb"><img src="https://picsum.photos/id/1015/150/100.jpg" alt=""/></label>
+  </div>
+  <div class="gallery__item">
+    <input type="radio" id="img-2" name="gallery" class="gallery__selector"/>
+    <img class="gallery__img" src="https://picsum.photos/id/1039/600/400.jpg" alt=""/>
+    <label for="img-2" class="gallery__thumb"><img src="https://picsum.photos/id/1039/150/100.jpg" alt=""/></label>
+  </div>
+  <div class="gallery__item">
+    <input type="radio" id="img-3" name="gallery" class="gallery__selector"/>
+    <img class="gallery__img" src="https://picsum.photos/id/1057/600/400.jpg" alt=""/>
+    <label for="img-3" class="gallery__thumb"><img src="https://picsum.photos/id/1057/150/100.jpg" alt=""/></label>
+  </div>
+  <div class="gallery__item">
+    <input type="radio" id="img-4" name="gallery" class="gallery__selector"/>
+    <img class="gallery__img" src="https://picsum.photos/id/106/600/400.jpg" alt=""/>
+    <label for="img-4" class="gallery__thumb"><img src="https://picsum.photos/id/106/150/100.jpg" alt=""/></label>
+  </div>
+</section></slot>
+      <table id="detail">
           <tr>
               <th>Name</th>
               <td>{{Tname}}</td>
@@ -19,8 +41,7 @@
       </table>
     </div>
     <slot name="TlocationP"><p>Location of Map</p></slot>
-    <slot name="Tmenu1"><p>Location of Menu</p></slot>
-    <slot name="Tmenu2"></slot>
+    <slot name="Tmenu"><p>Location of Menu</p></slot>
   </div>
 </template>
 
@@ -39,6 +60,7 @@ export default defineComponent({
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
+@import "src/scss/gallery.scss";
 .title1{
   margin: 5px;
   padding: 5px;

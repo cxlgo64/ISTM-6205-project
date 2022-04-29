@@ -11,6 +11,7 @@
     "bulma": "^0.9.3",
     "core-js": "^3.8.3",
     "vue": "^3.2.13",
+    "vue-meta": "^2.4.0",
     "vue-router": "^4.0.3",
     "vue-sidebar-menu": "^5.2.2",
     "vuex": "^4.0.0"
