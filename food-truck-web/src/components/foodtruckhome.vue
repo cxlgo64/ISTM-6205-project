@@ -65,6 +65,7 @@ export default defineComponent({
 </script>
 
 <style lang="scss">
+@import "src/scss/_base2.scss";
 #trucks{
   align-content: center;
   margin-left: auto;

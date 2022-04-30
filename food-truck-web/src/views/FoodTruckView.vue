@@ -18,7 +18,7 @@ export default defineComponent({
 
 <style lang="scss">
   .food-truck-home h1 {
-    font-size: 25px;
+    font-size: 30px;
   }
   #total{
     text-align: right;

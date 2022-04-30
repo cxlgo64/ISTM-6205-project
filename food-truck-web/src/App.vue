@@ -1,6 +1,6 @@
 <template>
   <app-header/>
- <div id="sidebarmenu"><sidebar-menu v-model:collapsed="collapsed" :menu="menu"  :theme="selectedTheme" @update:collapsed="onToggleCollapse" @item-click="onItemClick"/></div>
+  <div id="sidebarmenu"><sidebar-menu v-model:collapsed="collapsed" :menu="menu"  :theme="selectedTheme" @update:collapsed="onToggleCollapse" @item-click="onItemClick"/></div>
   <div
     v-if="isOnMobile && !collapsed"
     class="sidebar-overlay"
@@ -94,11 +94,12 @@ export default {
       methods: {
         onToggleCollapse (collapsed) {
           console.log('onToggleCollapse')
+          console.log(collapsed)
         },
         onItemClick (event, item) {
           console.log('onItemClick')
-          // console.log(event)
-          // console.log(item)
+          console.log(event)
+          console.log(item)
         },
         onResize () {
           if (window.innerWidth <= 767) {
@@ -117,7 +118,6 @@ export default {
 
 <style lang="scss">
 @import "vue-sidebar-menu/src/scss/vue-sidebar-menu.scss";
-@import "src/scss/_base2.scss";
 
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;

@@ -45,6 +45,7 @@ export default {
 }
 </script>
 <style lang="scss">
+@import "src/scss/_base2.scss";
  .contact-form{
     padding: auto;
     padding-top: 10px;

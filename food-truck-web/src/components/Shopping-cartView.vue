@@ -35,9 +35,10 @@ export default defineComponent({
 </script>
 
 <style lang="scss">
-  .Shopping-cart h1 {
-    font-size: 25px;
-  }
+@import "src/scss/_base2.scss";
+   .Shopping-cart h1 {
+     font-size: 25px;
+   }
   #cart{
     width: 50%;
     position: relative;

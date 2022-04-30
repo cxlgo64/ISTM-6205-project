@@ -28,7 +28,8 @@ export default defineComponent({
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped lang="scss">
+<style lang="scss">
+@import "src/scss/_base2.scss";
 .title1{
   margin: 5px;
   padding: 5px;
@@ -76,45 +77,5 @@ li {
 }
 a {
   color: #42b983;
-}
-h1 {
-    font-size: 55px;
-  }
-h2 {
-    font-size: 33px;
-}
-h3 {
-  font-size: 30px;
-}
-p {
-  font-size: 20px;
-}
-@media only screen and (max-width: 768px) {
-  h1 {
-    font-size: 40px;
-  }
-  h2 {
-    font-size: 25px;
-  }
-  h3 {
-    font-size: 20px;
-  }
-  p {
-    font-size: 15px;
-  }
-}
-@media only screen and (max-width: 320px) {
-  h1 {
-    font-size: 23px;
-  }
-  h2 {
-    font-size: 20px;
-  }
-  h3 {
-    font-size: 15px;
-  }
-  p {
-    font-size: 10px;
-  }
 }
 </style>
