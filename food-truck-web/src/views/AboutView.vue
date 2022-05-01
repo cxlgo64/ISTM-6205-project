@@ -1,41 +1,38 @@
 <template>
   <div class="about">
     <h1>About Us</h1>
-    <p>
-      George Washington Univeristy School of Business Information System and Technology Management 6205 project
-    </p>
-    <h2>Member introduction</h2>
-    <div class="XLC">
-      <ul>
-        <li id="picture"><img alt="Xueliang Chen picture" src="..\assets\member1.jpg" height="50" width="100"></li>
-        <li><a href="https:/www.windbreakercxl.com" target="_blank" rel="noopener">Xueliang Chen</a></li>
-        <li><div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="HORIZONTAL" data-vanity="xueliang-chen-38645a1b7" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/xueliang-chen-38645a1b7?trk=profile-badge">Linkedin</a></div></li>
-        <li><a href="mailto:cxlgo@gwu.edu">Email</a></li>
-      </ul>
+    <h2>
+      Information System and Technology Management 6205 project
+    </h2>
+    <p>School: George Washington Univeristy School of Business </p>
+    <div class="projectinfo">
+      <div class="links"><a href="https://github.com/cxlgo64/ISTM-6205-project/tree/newoneone">GitHub</a></div>
+      <div class="links"><a href="https://docs.google.com/document/d/10DoRP0DQWf7lD-wPs9uUxh5Ow1s6JiY8ucStnW30yfA/edit?usp=sharing">Project Report</a></div>
     </div>
-    <div class="YC">
-      <ul>
-        <li id="picture"><img alt="Younghwan Choi picture" src="..\assets\member2.jpg" height="50" width="100"></li>
-        <li>Younghwan Choi</li>
-        <li><a href="https:/www.windbreakercxl.com" target="_blank" rel="noopener">Linkedin</a></li>
-        <li><a href="mailto:cxlgo@gwu.edu">Email</a></li>
-      </ul>
+    <div class="memeber">
+      <h2>Member introduction</h2>
+      <div class="box">
+        <img id="picture" alt="Xueliang Chen picture" src="..\assets\member1.jpg" height="200" width="100"><br>
+        <a href="https:/www.windbreakercxl.com" target="_blank" rel="noopener">Xueliang Chen</a>
+        <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="HORIZONTAL" data-vanity="xueliang-chen-38645a1b7" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/xueliang-chen-38645a1b7?trk=profile-badge">Linkedin</a></div>
+        <a href="mailto:cxlgo@gwu.edu">Email</a>
+      </div>
+      <div class="box">
+          <img id="picture" alt="Younghwan Choi picture" src="..\assets\member2.jpg" height="200" width="100">
+          <p>Younghwan Choi</p>
+          <a href="https:/www.windbreakercxl.com" target="_blank" rel="noopener">Linkedin</a><br>
+          <a href="mailto:cxlgo@gwu.edu">Email</a>
+      </div>
+      <div class="box">
+          <img id="picture" alt="Jeffrey Techie-Menson picture" src="..\assets\member3.jpg" height="200" width="100">
+          <p>Jeffrey Techie-Menson</p>
+          <a href="https:/www.windbreakercxl.com" target="_blank" rel="noopener">Linkedin</a><br>
+          <a href="mailto:cxlgo@gwu.edu">Email</a>
+      </div>
     </div>
-    <div class="JTM">
-      <ul>
-        <li id="picture"><img alt="Jeffrey Techie-Menson picture" src="..\assets\member3.jpg" height="50" width="100"></li>
-        <li>Jeffrey Techie-Menson</li>
-        <li><a href="https:/www.windbreakercxl.com" target="_blank" rel="noopener">Linkedin</a></li>
-        <li><a href="mailto:cxlgo@gwu.edu">Email</a></li>
-      </ul>
+    <div class="contact-form">
+      <contact-form />
     </div>
-   <h2>Instructor Introduction</h2>
-    <div class="Instructor">
-      <img alt="WeiChen picture" src="..\assets\logo.png" height="50" width="100"><br>
-      <a href="https:/www.windbreakercxl.com" target="_blank" rel="noopener">Wei Chen</a>
-      <a href="mailto:cxlgo@gwu.edu"> Email</a>
-    </div>
-    <contact-form />
   </div>
 </template>
 
@@ -58,26 +55,50 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style scoped lang="scss">
 @import "src/scss/_base2.scss";
+  .member{
+    margin-bottom: 3rem;
+  }
+  h2{
+    font-size: 1.3rem;
+  }
+  .about p{
+    font-size: 15px;
+  }
   *{
     box-sizing: border-box;
   }
-  .about ul{
+  .projectinfo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex:1 1 42rem;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+  }
+  .projectinfo .links{
+    flex:1 1 42rem;
+  }
+  .about .member{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+  }
+  .about .box{
     display: inline-block;
     background-color: rgb(220, 226, 231);
     position: relative;
-    padding-left: 5px;
-    padding-right: 5px;
-    margin: 8px;
-  }
-  .about li{
-    display: inline-block;
-    margin: 0 10px;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    margin: 1rem;
   }
   #picture{
     background-color: rgb(178, 97, 127);
     margin: 5px;
     padding: 5px;
+  }
+  .contact-form{
+    margin-top:3rem;
   }
 </style>

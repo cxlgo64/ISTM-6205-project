@@ -43,7 +43,7 @@ export default {
         {
           href: '/',
           title: 'Home',
-          icon: 'fa fa-user'
+          icon: 'fa-light fa-truck-container'
         },
         {
           href: '/food-truck-home',
@@ -87,6 +87,8 @@ export default {
           icon: 'fa fa-user'
         }
       ],
+      selectedTheme: 'black-theme',
+      isOnMobile: false,
       mounted () {
         this.onResize()
         window.addEventListener('resize', this.onResize)

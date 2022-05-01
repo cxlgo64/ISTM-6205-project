@@ -2,16 +2,28 @@
   <div class="Scratlist">
     <ShoppingCart>
         <template v-slot:cratlist>
-            <tr id="crat1">
-                <td>Tasty Kobab</td>
+            <tr id='crat1'>
+                <td>Gourmet Mediterranean</td>
+                <td>005</td>
+                <td>Falafel Side</td>
+                <td id='qtt1'>1</td>
+                <td id='price1'>$5.00</td>
+                <td>
+                    <button  @click="removeFunc(this)">remove</button>
+                    <button  @click="addquantity(this)">+</button>
+                    <button  @click="reducequantity(this)">-</button>
+                </td>
+            </tr>
+            <tr id='crat2'>
+                <td>Gourmet Mediterranean</td>
                 <td>001</td>
-                <td>Chicken & rick</td>
-                <td>1</td>
-                <td>$12.99</td>
+                <td>Falafel Over Rice</td>
+                <td id='qtt2'>1</td>
+                <td id='price2'>$12.99</td>
                 <td>
                     <button  @click="removeFunc()">remove</button>
-                    <button  @click="addquantity()">+</button>
-                    <button  @click="reducequantity()">-</button>
+                    <button  @click="addquantity(this)">+</button>
+                    <button  @click="reducequantity(this)">-</button>
                 </td>
             </tr>
         </template>
@@ -28,10 +40,9 @@ export default defineComponent({
   components: {
     ShoppingCart
   },
-
   methods: {
     removeFunc (): void {
-      // document.getElementById('crat1').innerHTML = ''
+      document.getElementById('crat1').innerHTML = ''
     },
     addquantity (): void {
       // document.getElementById('crat1').innerHTML = ''

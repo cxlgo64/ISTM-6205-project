@@ -25,56 +25,56 @@
           </thead>
           <tbody>
             <tr>
-                <td>Chicken & Rice</td>
-                <td>$12.99</td>
+                <td>Rice bowls(Bian Dang)</td>
+                <td>$15.99</td>
             </tr>
             <tr>
-                <td>Chicken Over Salad</td>
-                <td>$12.99</td>
-            </tr>
-            <tr>
-                <td>Chicken on Pita</td>
-                <td>$10.99</td>
-            </tr>
-            <tr>
-                <td>Lamb & Rice</td>
-                <td>$12.99</td>
-            </tr>
-            <tr>
-                <td>Lamb Over Salad</td>
-                <td>$12.99</td>
-            </tr>
-             <tr>
-                <td>Lamb Gyro</td>
-                <td>$10.99</td>
-            </tr>
-            <tr>
-                <td>Combo Over Rice</td>
-                <td>$12.99</td>
-            </tr>
-            <tr>
-                <td>Combo Over Salad</td>
-                <td>$12.99</td>
-            </tr>
-            <tr>
-                <td>Combo Gyro</td>
-                <td>$10.99</td>
-            </tr>
-            <tr>
-                <td>Veggie Platter</td>
+                <td>Crispy Chicken</td>
                 <td>$11.99</td>
             </tr>
             <tr>
-                <td>Meatball Kabob</td>
-                <td>$12.99</td>
+                <td>Slow braised beef</td>
+                <td>$16.00</td>
             </tr>
             <tr>
-                <td>Chicken & Mushroom</td>
-                <td>$12.99</td>
+                <td>Pork Yumplings</td>
+                <td>$18.00</td>
             </tr>
             <tr>
-                <td>Drinks</td>
-                <td>$2.00</td>
+                <td>Beef noodle soup</td>
+                <td>$15.00</td>
+            </tr>
+             <tr>
+                <td>Fried chicken sandwich</td>
+                <td>$13.00</td>
+            </tr>
+            <tr>
+                <td>Edamame &Tofu salad</td>
+                <td>$12.00</td>
+            </tr>
+            <tr>
+                <td>Pickled Lotus roots</td>
+                <td>$12.00</td>
+            </tr>
+            <tr>
+                <td>Shoestring fries</td>
+                <td>$7.00</td>
+            </tr>
+            <tr>
+                <td>Passion fruit tea</td>
+                <td>$4.50</td>
+            </tr>
+            <tr>
+                <td>Jasmine green milk tea</td>
+                <td>$9.00</td>
+            </tr>
+            <tr>
+                <td>Bubble tea</td>
+                <td>$5.00</td>
+            </tr>
+            <tr>
+                <td>Iced matcha latte</td>
+                <td>$6.00</td>
             </tr>
           </tbody>
       </table></template>
