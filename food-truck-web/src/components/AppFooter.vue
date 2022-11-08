@@ -1,6 +1,6 @@
 <template>
   <footer>
-    <p>Copyright &copy; Xueliang Chen,  Younghwan Choi , Jeffrey Techie-Menson {{year}} </p>
+    <p id="ft">Copyright &copy; Xueliang Chen,  Younghwan Choi , Jeffrey Techie-Menson {{year}} </p>
   </footer>
 </template>
 
@@ -15,3 +15,13 @@ export default {
   }
 }
 </script>
+
+<style lang="scss">
+  #ft{
+    margin:20px;
+    font-size: 12px;
+    background-color: bisque;
+    position: relative;
+    bottom: 0;
+  }
+</style>
